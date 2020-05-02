@@ -25,6 +25,8 @@
 #include "EmbeddedJSONSignature.h"
 #include <sodium.h>
 #include <stdexcept>
+#include <string.h>
+#include <algorithm>
 
 std::string EmbeddedJSONSignature::b64Encode(const std::vector<unsigned char> &bytes)
 {
