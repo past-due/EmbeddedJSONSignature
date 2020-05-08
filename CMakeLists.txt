@@ -2,7 +2,7 @@ cmake_minimum_required (VERSION 3.5)
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
-find_package(Sodium 1.0.13 REQUIRED)
+find_package(Sodium 1.0.14 REQUIRED)
 
 file(GLOB HEADERS "include/*.h")
 file(GLOB SRC "src/*.cpp")
